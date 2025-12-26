@@ -1,15 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Homework-Final/bootstrap_ad_platform.sh
-# 1) docker compose down -v
-# 2) docker compose up -d
-# 3) создать отдельную БД
-# 4) применить schema.sql
-# 5) наполнить seed.sql
-# 6) (опционально) прогнать queries.sql
-# 7) установить search_path по умолчанию для postgres в этой БД
-
 SERVICE_NAME="postgres"
 CONTAINER_NAME="pg-demo"
 
